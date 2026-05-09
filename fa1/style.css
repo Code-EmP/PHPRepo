@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(autumn.jpg);
+    background-size: cover;
+}
+
+.container1 {
+    width: 65%;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #ffe7c4;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    border: #ffb938 solid 2px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.container1 h2 {
+    font-size: 30px;
+    margin-top: auto;
+    color: #333;
+}
+
+.container1 ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.container1 img {
+    float: left;
+    width: 200px;
+    height: 200x;
+    border-radius: 25%;
+    margin-bottom: 20px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    width: 65%;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #ffe7c4;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    border: #ffb938 solid 2px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.skills,
+.education {
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container2 h2 {
+    font-size: 30px;
+    margin-top: auto;
+    color: #333;
+}
+
+.container2 ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.container3 {
+    width: 65%;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffe7c4;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    border: #ffb938 solid 2px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container3 h2 {
+    font-size: 30px;
+    margin-top: auto;
+    color: #333;
+}
+
+.container3 ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.container3 img {
+    width: auto;
+    height: 500px;
+    border-radius: 5%;
+}
