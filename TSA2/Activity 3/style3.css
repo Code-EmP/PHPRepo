@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 760px;
+    margin: 30px auto;
+    border: 2px solid #999;
+    background: white;
+    box-sizing: border-box;
+}
+
+.top {
+    display: flex;
+    border-bottom: 2px solid #999;
+}
+
+.profile {
+    width: 220px;
+    border-right: 2px solid #999;
+    text-align: center;
+}
+
+.profile img {
+    width: 140px;
+    height: 140px;
+    margin: 18px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.personal {
+    padding: 30px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section {
+    border-top: 2px solid #999;
+    padding: 18px 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.section h2 {
+    margin: 0;
+    font-weight: normal;
+    text-align: left;
+    font-size: 20px;
+    width: 220px;
+    flex-shrink: 0;
+}
+
+.section h2::before {
+    content: "•";
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.section p,
+.section ul {
+    margin: 0;
+    flex: 1;
+}
+
+.section ul {
+    padding-left: 20px;
+}
